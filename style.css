@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Default styling */
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;   
+}
+
+body {
+    background: linear-gradient(38.73deg, rgba(18, 17, 18, 0.094) 0%, rgba(201, 32, 184, 0) 50%), linear-gradient(141.27deg, rgba(0, 70, 209, 0) 50%, rgba(0, 70, 209, 0.15) 100%);
+}
+
+.root {
+    display: flex;
+    width : 100vw;
+    height : 100vh;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar {
+    width :17rem;
+    height : 100%;
+    background-color: #040b14;
+    justify-content: flex-start;
+}
+
+.hidden {
+    position: fixed;
+    left : -2000px;
+}
+
+.content {
+    flex : 1;
+    overflow: auto;
+}
+
+.logo {
+    width : 90%;
+    height : 12rem;
+    justify-content: space-evenly;
+}
+
+.profile {
+    width : 7rem;
+    height : 7rem;
+    margin : 0.5rem;
+    border: 0.4rem solid #2c2f3f;
+    border-radius: 50%;
+    background: url("asserts/profile-img.jpg") no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.name {
+    color : white;
+    font-size: 2rem;
+}
+
+nav {
+    margin-top: 1.75rem;
+}
+
+nav ul {
+    padding : 0;
+}
+
+nav li {
+    margin : 1.25rem 0rem;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color : #fff;
+    opacity: 0.75;
+}
+
+nav a:hover {
+    opacity: 1;
+}
+
+.active {
+    opacity: 1;
+    color: #149ddd;
+}
+
+.title {
+    display: inline-block;
+    border-bottom: 4px solid #149ddd;
+    padding-bottom: 0.5rem;
+}
+
+section {
+    margin-bottom: 1rem;
+    padding : 1.5rem 0rem;
+    /* width : 100%;
+    height : 100%; */
+}
+
+.projects-conatiner {
+    display: flex;
+}
+
+.project-card {
+    display: inline-block;
+    margin-right : 1.5rem;
+}
+
+.card-btns  {
+    display: flex;
+    justify-content: space-around;
+}
+
+label {
+    margin-top: 1.5rem;
+    font-size: 1.25rem;
+}
+
+input {
+    width : 100%;
+    height : 3rem;
+}
+
+textarea {
+    width : 100%;
+    height: 12rem;
+}
+
+button {
+    margin-top: 1rem;
+}
